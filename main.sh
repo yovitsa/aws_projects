@@ -48,7 +48,7 @@ aws s3 webiste "s3://macak-bucket" \
     --profile $profile \
     --region $region \
     --index-document index.html
-    # directing to index as I have only one page for this webiste
+    # directing to index adjust at cloud front gui on aws
     --error-document index.html
 
 # Uploading the webiste
